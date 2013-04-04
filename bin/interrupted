@@ -1,0 +1,9 @@
+#!/usr/bin/env python
+
+from stathat import StatHat
+from os import environ
+
+if __name__ == "__main__":
+    email = environ['STATHAT_EMAIL']
+    stats = StatHat(email)
+    stats.count('interruptions', 1)
