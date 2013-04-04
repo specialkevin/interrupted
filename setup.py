@@ -17,5 +17,6 @@ setup(
                     "Topic :: Utilities",
                     "License :: OSI Approved :: BSD License",
                 ],
-    install_requires = ['stathat'],
+    install_requires = ['stathat>=0.0.2'],
+    dependency_links = ['https://github.com/kennethreitz/stathat.py/tarball/master#egg=stathat-0.0.3']
 )
